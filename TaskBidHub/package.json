@@ -1,6 +1,6 @@
 {
   "name": "taskbid",
-  "homepage": "https://gowtham-cyber-max.github.io/TaskBidHub" ,
+  "homepage": "https://gowtham-cyber-max.github.io/TaskBidHub",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -13,6 +13,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "firebase": "^10.11.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },

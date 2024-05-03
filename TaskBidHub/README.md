@@ -9,3 +9,22 @@ Currently, two official plugins are available:
 
 
 
+Login Page :
+            sign-In-WithGoogle
+            sign-In-With maild id password
+            mobile Num
+sign up :
+            maild-id
+Profile Page:
+
+        full name
+        date of birth
+
+
+Add Task
+
+        task name
+        task description
+        task date
+        task last date
+        

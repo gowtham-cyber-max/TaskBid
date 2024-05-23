@@ -9,6 +9,7 @@ import { getAnalytics } from "firebase/analytics";
 const firebaseConfig = {
   apiKey: "AIzaSyCzeS0gmMWe_p-N2XhjfhhLslJ2uuZEXkU",
   authDomain: "taskbidhub.firebaseapp.com",
+  databaseURL: "https://taskbidhub-default-rtdb.asia-southeast1.firebasedatabase.app",
   projectId: "taskbidhub",
   storageBucket: "taskbidhub.appspot.com",
   messagingSenderId: "245042801496",
@@ -17,5 +18,6 @@ const firebaseConfig = {
 };
 
 // Initialize Firebase
-const app = initializeApp(firebaseConfig);
-const analytics = getAnalytics(app);
+export const app = initializeApp(firebaseConfig);
+export  const analytics = getAnalytics(app);
+export const db=getFirestore(app);

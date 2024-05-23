@@ -1,5 +1,5 @@
 import React from 'react'
-import {Route,Routes} from 'react-router-dom';
+import {HashRouter, Route,Routes} from 'react-router-dom';
 import BidList from './Frontend/BidList';
 import BidUpload from './Frontend/BidUpload';
 function Pathing() {

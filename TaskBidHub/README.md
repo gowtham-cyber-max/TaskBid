@@ -10,21 +10,30 @@ Currently, two official plugins are available:
 
 
 Login Page :
-            sign-In-WithGoogle
-            sign-In-With maild id password
-            mobile Num
+- sign-In-WithGoogle
+- sign-In-With maild id password
+- mobile Num
+
 sign up :
-            maild-id
+- maild-id
+- password
+
 Profile Page:
 
-        full name
-        date of birth
+full name
+date of birth
 
 
 Add Task
 
-        task name
-        task description
-        task date
-        task last date
-        
+task name
+task description
+task date
+task last date
+
+npm install
+
+```
+npm install uuid
+```
+![alt text](image.png)
